@@ -1,15 +1,17 @@
-* [HOME](/)
-* Useful:
-* >[Announcements](announcements/)
-* >[Community media](community/community-media.md)
-* >[Functions Overview](guides/functions-guide.md)
-* Install Guides:
-* >[Prerequisites](prereq/prerequisites.md)
-* >[Gaggia Classic](gc/gaggia-classic.md)
-* >[Gaggia Classic Pro](gcp/gaggia-classic-pro-new-classic.md)
-    * Upgrades:
-    * >[Lego AIO Housing](guides/lego-component-build-guide.md)
-    * >[STM32 UPGRADE](stm32-upgrade-pack/blackpill.md)
-    * >[Scales Configuration](scales/scales.md)
-    * >[PCB](pcb/singleboard.md)
-* [Recommendations](learning/learning-sources.md)
+* [Home](/)
+* Useful
+* - [Announcements](/announcements/)
+* - [Community media](/community/community-media.md)
+* - [Functions Overview](/guides/functions-guide.md)
+* - [Recommendations](/learning/learning-sources.md)
+* Install Guides
+* - [Prerequisites](/install/prerequisites.md)
+* - [Lego AIO Config](/install/lego-guide.md)
+* - [Machine Install](/install/machine-install.md)
+    * Upgrades
+    * - [Scales Configuration](/scales/scales.md)
+    * - [PCB](/install/singleboard.md)
+* (EOL) Nano Install Guides
+    * - [Gaggia Classic](/install/gaggia-classic.md)
+    * - [Gaggia Classic Pro](/install/gaggia-classic-pro-new-classic.md)
+    * - [Nano to STM32](/stm32-upgrade-pack/blackpill.md)

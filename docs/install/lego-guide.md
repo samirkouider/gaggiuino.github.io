@@ -1,5 +1,6 @@
-This is a quick guide on how to best piece together the Gaggiuino mod into the 3D printed housing.
-Lots of images are provided to give you a sense of what a completed lego build should look like in the box.
+>[!Note]
+>This is a quick guide on how to best piece together the Gaggiuino mod into the 3D printed housing.
+Lots of images are provided to give you a sense of what a completed **all in one** (AIO) lego build should look like in the box.
 
 # Preparation 
 It is recommended to remove pins on the dimmer and thermocouple interface boards for the smallest, best connection. If you’d prefer to not do this in later steps you can solder wires to the pins and heat shrink over them.
@@ -126,4 +127,8 @@ Close the housing with 4 screws to complete.
 Things that are not pictured – connections to solid state relay (SSR), touchscreen, scales, thermocouple, steam/brew switches. Please continue the install by referencing the machine-specific schematic and/or install instructions as they may vary.
 Here are the labeled component connections to wiring that should be referenced by the machine-specific schematic(s). 
 
-<img width="629" alt="image" src="https://user-images.githubusercontent.com/53577819/211653789-00be52a2-e019-43f2-94af-1c9425beb54b.png">
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/53577819/211653789-00be52a2-e019-43f2-94af-1c9425beb54b.png">
+
+
+>[!Note]
+>You can now move onto [Machine Install](/install/machine-install.md)

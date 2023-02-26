@@ -3,7 +3,7 @@
 
 !>By agreeing to follow the below guide, you agree that the authors cannot be deemed responsible for any of the damage you induce to your house appliances, yourself, your cat, your friend, or your gold fish. It will be entirely your fault!**
 
-# SCHEMATICS & DIAGRAMS
+# Schematics & Diagrams
 **Schematics:**
 * [GAGGIA Classic **Nano** HV wiring](https://user-images.githubusercontent.com/42692077/161397293-82df427a-2ac2-4226-bdc6-fa831a962265.png)
 * [GAGGIA Classic **STM32-Blackpill** HV wiring](https://user-images.githubusercontent.com/117388662/204613299-8921379c-7bc0-4cf2-ae9f-0b7c7dd12654.JPG)
@@ -12,7 +12,7 @@
 **Diagrams:**
 * [GAGGIA Classic **Nano** LV wiring](https://user-images.githubusercontent.com/42692077/160548957-88c93198-6d81-4081-8db6-552b6f6c5281.png)
 
-# ARDUINO CONNECTIONS
+# Arduino Connections
 <!-- panels:start -->
 <!-- div:left-panel -->
 1. MAX6675 (Temperature sensing)
@@ -104,7 +104,7 @@ _Dimmer high voltage circuit control ports will act as a passthrough for the pum
 <!-- panels:end -->
 ***
 
-# ASSEMBLING
+# Assembling
 First let's check that the setup works as expected while outside the machine so you don't have it all installed and realise just afterwards it's not reading any temperature because of a faulty component or the SSR doesn't switch between the ON/OFF modes.
 
 
@@ -117,12 +117,12 @@ First let's check that the setup works as expected while outside the machine so 
 
 !>As always with such projects common sense should be applied at all times, it's expected people doing such sort of modifications will have some basic understanding. Triple check your machine is disconnected from any power sources, even better just pull the power cable out of it if you haven't done so yet!
 
-# BASE FUNCTIONALITY BENCH TEST
+# Base Functionality Bench Test
 ***
 1. The first step will be to test the electronics outside the Gaggia. Connect the MAX6675 module, SSR, and nextion to the arduino board using the pins defined above. You can also find them defined at the top of the .ino file.
 For now only connect the low voltage circuit controlling ports of the SSR to check whether the SSR LED indicates the power states.
 
-4. To flash the microcontroller Arduino Nano or the STM32 Blackpill, pls follow the video from the [Prerequisites](prereq/prerequisites.md) section of this site.
+4. To flash the microcontroller Arduino Nano or the STM32 Blackpill, pls follow the video from the [Prerequisites](/install/prerequisites.md) section of this site.
 
 !> Arduino Nano won't flash with the LCD attached to the RX/TX pins so make sure to disconnect it at that time.
 
@@ -143,7 +143,7 @@ For now only connect the low voltage circuit controlling ports of the SSR to che
 
 **At this point if all the above works as expected, then you're ready to install it all inside the machine. We'll be preparing some splitters that we'll use to connect to the Gaggia internals without introducing any permanent modifications so in the event of a desire to revert to stock it's a few disconnects away!**
 
-# BASE FUNCTIONALITY
+# Base Functionality
 ***
 1. Take off the top cover by unscrewing the 2 top screws. You should be able to see something similar to the below image minus the SSR:
 >
@@ -202,7 +202,7 @@ So you end up having them connected like this:
 
 14. Now you're ready to connect the rest of the electronics to the Arduino like you did when testing everything. This time, it is recommended to solder all the Arduino connected cables, instead of using the provided dupont connectors, as during the machine operation there is quite a bit of vibration. This can introduce all sorts of noise/frequent disconnects to certain pins which will lead to unexpected behaviour.
 
-# EXTENDED FUNCTIONALITY
+# Extended Functionality
 ***
 1. Install the Optocoupler, which will detect when the brew switch is flipped.
 
@@ -231,6 +231,15 @@ So you end up having them connected like this:
 
 >**The image above is provided as a reference to understand how the connection through the dimmer is made, please check whether your dimmer high voltage ports placement differs from the above image before connecting the dimmer, it's very important to feed the IN wires properly.**
 
-***
-?>Please refer to [Lego Component Housing Guide](guides/lego-component-build-guide.md) on how to setup and house your components for best fit into the machine.
-***
+# Finish
+?>Please refer to [Lego AIO Config](/install/lego-guide.md) on how to setup and house your components for best fit into the machine.
+
+On first start up record and send to **#first-start** channel of discord. This helps with diagnosing issues.
+
+Remember to change and save your correct region settings.
+
+Configure you PP and PI settings and get prepped for a shot if all is well. Record and upload to **#first-shot** on the discord. 
+
+All going well, feel like an absolute coffee titan each and every time you pull a shot.
+
+?>If you have any issues, firstly check the rules on the discord and then open an **#install-help...** for your respective machine. Try to make sure you do some research with the use of the powerful search function on discord to search for keywords with images or links etc...

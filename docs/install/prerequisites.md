@@ -1,5 +1,5 @@
-# PREREQUISITES 
-## Software requirements:
+# Prerequisites 
+## Software requirements
 1. Install [VSCode](https://code.visualstudio.com/)
 2. Install [Platform IO](https://platformio.org/)
 3. Update [python](https://www.python.org/downloads/ ) to latest
@@ -25,4 +25,6 @@ You select your environment based on your build and upload method i.e:
 * **Lego** build if you have individual components, **PCB** if you have that.
 * **STlink** if you are using one, **DFU** if not.
 
+# Finish
+Move onto [Lego AIO Config](install/lego-guide.md)
  

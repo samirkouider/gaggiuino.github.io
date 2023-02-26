@@ -1,5 +1,5 @@
 > [!NOTE]
->This site is a general guide and not a exhaustive, step-by-step tutorial. It is expected that anyone attempting has proficiency with the skills listed in the [Recommendations](learning/learning-sources.md) page. For anyone attempting the install it's strongly recommended to read the planned install route in it's entirety.
+>This site is a general guide and not a exhaustive, step-by-step tutorial. It is expected that anyone attempting has proficiency with the skills listed in the [Recommendations](/learning/learning-sources.md) page. For anyone attempting the install it's strongly recommended to read the planned install route in it's entirety.
 
 **Contribute to better docs written by a professional technical writer.**
 <!-- ko-fi :id=zer0bit :color=<color> -->

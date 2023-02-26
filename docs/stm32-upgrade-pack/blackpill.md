@@ -35,7 +35,7 @@ If you do purchase a green expansion board but see on the reverse side this conn
 * Take tape and go over the interior of your enclosures to pick up any loose strands from the installation.  
 
 ## Software Installation
-?>Please refer to [Prerequisites](/prereq/prerequisites.md).
+?>Please refer to [Prerequisites](/install/prerequisites.md).
 
 !>ArduinoIDE will no longer work for building and uploading the software to the board as it was done for the nano. You will need to download the official STM32 drivers or the STM32 cube programmer and use VSCode and the PlatformIO extension to upload to the STM32.
 
